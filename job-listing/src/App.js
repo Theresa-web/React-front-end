@@ -1,10 +1,17 @@
+import { useEffect } from 'react';
 import './App.css';
-import { HeaderJ } from './components/HeaderJ';
+import { Header } from './components/Header';
+import { Joblist } from './components/Joblist';
+import Datafile from './Datafile.json'
+
+ 
 
 function App() {
+
   return (
     <div className="App">
-      <HeaderJ />
+      <Header />
+      <Joblist data={Datafile} />
     </div>
   );
 }
