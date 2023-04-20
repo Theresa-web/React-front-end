@@ -5,6 +5,6 @@ Create the necessary components for the frontend, such as the home page, add job
 
 Use Axios or another HTTP client to make requests to the backend APIs.
 
-Style the frontend using CSS or a CSS framework like Bootstrap.
+Style the frontend using CSS or a CSS framework like Material - UI.
 
 Test the app and make any necessary changes.
